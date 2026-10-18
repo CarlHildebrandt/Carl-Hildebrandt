@@ -1,72 +1,127 @@
-# Carl Hildebrandt · Westfield Innovations
+# Carl D. Hildebrandt
 
-**Engineer, machinist, and architect of AZUS and Pressure-Driven Memory.** I design the machine; a team builds it. Franklin, Texas.
+**Industrial systems engineer · Inventor · Founder of Westfield Innovations**  
+Franklin, Texas
 
-[![pdm-memory on PyPI](https://img.shields.io/pypi/v/pdm-memory?style=for-the-badge&label=PDM--MEMORY&logo=pypi&logoColor=white&color=2F5D8A)](https://pypi.org/project/pdm-memory/)
-[![Python](https://img.shields.io/pypi/pyversions/pdm-memory?style=for-the-badge&logo=python&logoColor=white&color=3C78B5)](https://pypi.org/project/pdm-memory/)
+[![PDM Memory on PyPI](https://img.shields.io/pypi/v/pdm-memory?style=for-the-badge&label=PDM--MEMORY&logo=pypi&logoColor=white&color=2F5D8A)](https://pypi.org/project/pdm-memory/)
 [![AZUS](https://img.shields.io/badge/AZUS-azus.ai-18222D?style=for-the-badge)](https://azus.ai)
 [![AZUS Field](https://img.shields.io/badge/AZUS_FIELD-field.azus.ai-2F5D8A?style=for-the-badge)](https://field.azus.ai)
 
-```
+I build systems that have to keep working. My background spans electronics, industrial controls, manufacturing, machining, transportation, and building businesses from the ground up.
+
+Today I lead the architecture and engineering behind **AZUS** and **Pressure-Driven Memory** at Westfield Innovations. I work with a professional programming team to turn those designs into software and products. My work connects persistent AI memory, contextual retrieval, prediction and outcome feedback, and controlled interaction with real equipment.
+
+**Five businesses founded. Decades of industrial and operating responsibility. More than 60 patent applications filed.**
+
+## Selected operating work
+
+### Manufacturing: engineering, maintenance, and safety
+
+At Robert Yaquinto Printing and later Cartamundi USA, I served in engineering and maintenance leadership, becoming Chief Engineer and Safety Director.
+
+- Engineered and managed renovation, equipment relocation, and consolidation of multiple plants into a **300,000-square-foot Dallas facility**.
+- Worked across production machinery, plant systems, electrical and electronic controls, mechanical troubleshooting, equipment installation, and maintenance.
+- Led workplace safety and employee training, handled regulatory requirements, and worked through customer compliance reviews supporting contract qualification.
+
+The responsibility extended from diagnosing a circuit to keeping equipment, people, maintenance, and production working together.
+
+### Transportation: a business built end to end
+
+I founded **Hildebrandt Services LLC** in 2010 and operated it through 2021, beginning with one dump truck.
+
+| Measure | Scale reached |
+| --- | --- |
+| Owned equipment | 10 trucks and 11 trailers |
+| Trucks coordinated at peak | Approximately 100, including owned equipment and subcontract haulers |
+| Registered subcontract-hauler network | More than 400 |
+
+I built the dispatch and subcontractor-recruiting operation alongside the business systems that supported it: QuickBooks, accounts receivable and payable, tax filings, hiring, HR policies, insurance, permits, equipment records, safety, and transportation compliance. I also handled dealings with government agencies, coordination with legal counsel, and business dispute resolution.
+
+### Industrial electronics and field service
+
+Earlier work included founding **Apex Electronics**, electronics work at **Moore Business Forms**, and electrical and mechanical field service for **Akiyama**. That experience covered oilfield controls, industrial motor controls, automation, printing-press installation, and troubleshooting equipment in operating businesses.
+
+Equipment experience includes Heidelberg, Akiyama, and Komori presses, Longford feeders, and sheetfed printing, finishing, and packaging machinery. I have worked across the electrical, electronic, mechanical, and process sides of the same production problem.
+
+I also contributed printing and process knowledge to exploratory work involving printed memory and smart packaging, including concepts for expiration indicators.
+
+## What I am building now
+
+### Pressure-Driven Memory
+
+**PDM** is persistent, resonance-based memory for AI programs. It selects relevant retained meaning for the current task, keeps outcomes available for later comparison, and reduces the need to carry an entire history through every interaction.
+
+**Memory is not storage. Memory is compressed meaning.**
+
+- [Python package on PyPI](https://pypi.org/project/pdm-memory/)
+- [Source and documentation](https://github.com/westfield-innovations/pdm-memory)
+
+```bash
 pip install pdm-memory
 ```
 
-## What I build
+### AZUS
 
-**Pressure-Driven Memory (PDM)** — persistent, resonance-based memory for AI programs. It keeps what mattered, validates what it kept against outcomes, and lets the rest fall silent instead of hauling every token through every call. Memory is not storage; memory is compressed meaning, and retrieval is commanded by pressure, not allocated by polling.
+**AZUS** brings persistent memory, contextual retrieval, ongoing review, and prediction-and-outcome feedback into a continuing system. Its architecture keeps records and objectives available across interactions, with mechanisms for finding inconsistencies and carrying corrections through affected records.
 
-**AZUS** — the system built on it: a memory that remembers, a loop that predicts and is graded against what actually happened, and a safe, deterministic connection to real machines.
+[azus.ai](https://azus.ai)
 
-**AZUS Field** — field operations for working crews: hours, receipts, work records, and hand-offs, with a trail that can be verified after the fact. [field.azus.ai](https://field.azus.ai)
+### AZUS Field
 
-**AZUS to PLC** — a model may propose a move; a deterministic layer posts it, inside the PLC's own permissives, and a witness that touches nothing watches the exchange. Industrial AI beyond chat.
+**AZUS Field** applies the same underlying architecture to working crews: hours, receipts, work records, and handoffs, with a record that can be checked afterward.
 
-**Free instruments** — the Noun Probe (pins every word in a document to one job) and the Curve Tool (reads any interaction as where it loses, where it holds, where it lags, and how it lands). Free to use, run, share, and adapt with the credit block attached.
+[field.azus.ai](https://field.azus.ai)
 
-**Inventor** — 60+ patent applications filed.
+### Industrial AI and control boundaries
 
-## Skills
+My industrial integration architecture connects AI proposals to programmable logic controllers through a deterministic control layer. The model proposes an action; the control layer checks the defined authority and conditions; the PLC retains its own permissives and interlocks.
 
-**Software**
+**Boundary Lock** defines what may change and under whose authority. **Westfield Witness** observes and records the exchange without issuing the machine command. These mechanisms connect my industrial control background to the AI systems I design today.
 
-![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLITE-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+### Engineering instruments
 
-**Control systems**
+- **Noun Probe** examines the jobs words perform, exposes overloaded terms, and uses controlled substitutions to find structural connections.
+- **EE Curve Tool** examines interactions through loss, storage, timing, and the relationship between an input and its result.
+- **The Grinder** carries ideas into committed predictions, compares them with outcomes, and records what held, what failed, and what changed.
 
-![Productivity2000](https://img.shields.io/badge/PRODUCTIVITY2000-PLC-2F5D8A?style=for-the-badge)
-![Allen-Bradley](https://img.shields.io/badge/ALLEN--BRADLEY-PLC-C8102E?style=for-the-badge)
-![Omron](https://img.shields.io/badge/OMRON-PLC-005EB8?style=for-the-badge)
-![Ladder logic](https://img.shields.io/badge/LADDER_LOGIC-18222D?style=for-the-badge)
-![Motor control](https://img.shields.io/badge/MOTOR_CONTROL-18222D?style=for-the-badge)
+The Noun Probe and EE Curve Tool are free to use, share, and adapt with their credit blocks attached.
 
-**Electronics**
+## Career at a glance
 
-![Control loops](https://img.shields.io/badge/CONTROL_LOOPS-C8922E?style=for-the-badge)
-![Circuit troubleshooting](https://img.shields.io/badge/CIRCUIT_TROUBLESHOOTING-C8922E?style=for-the-badge)
-![EEPROM programming](https://img.shields.io/badge/EEPROM_PROGRAMMING-C8922E?style=for-the-badge)
-![Instrumentation](https://img.shields.io/badge/INSTRUMENTATION-C8922E?style=for-the-badge)
+| Period | Organization | Work |
+| --- | --- | --- |
+| Early career | Apex Electronics; Moore Business Forms; Akiyama | Business ownership, industrial electronics, automation, and electrical/mechanical field service |
+| 1991–2005 | Robert Yaquinto Printing | Engineering and Maintenance Manager |
+| 2005–2010 | Cartamundi USA | Chief Engineer and Safety Director |
+| 2010–2021 | Hildebrandt Services LLC | Founder and President; trucking operations |
+| 2025–present | Westfield Innovations | Founder; systems architecture, invention, and product engineering |
 
-**Machining and fabrication** — complete parts and tooling, not demonstration pieces.
+My five founder-owned businesses span **electronics and industrial service, mortgage brokerage, trucking, commercial property, and Westfield Innovations**. The commercial-property business is **Westfield Commercial Properties**.
 
-![Lathe](https://img.shields.io/badge/LATHE-3C5A3F?style=for-the-badge)
-![Mill](https://img.shields.io/badge/MILL-3C5A3F?style=for-the-badge)
-![Surface grinder](https://img.shields.io/badge/SURFACE_GRINDER-3C5A3F?style=for-the-badge)
-![Welding](https://img.shields.io/badge/WELDING-3C5A3F?style=for-the-badge)
-![Brazing](https://img.shields.io/badge/BRAZING-3C5A3F?style=for-the-badge)
+## Working capabilities
 
-**Management**
+| Area | Experience |
+| --- | --- |
+| Controls | Motor controls, control loops, instrumentation, ladder logic, AutomationDirect Productivity2000, Allen-Bradley, and Omron PLCs |
+| Electronics | Circuit troubleshooting, industrial electronics, EEPROM programming, and electrical/mechanical fault isolation |
+| Machining and fabrication | Lathe, mill, surface grinder, welding, brazing, parts, and tooling |
+| Manufacturing | Presses, feeders, finishing and packaging lines, equipment relocation, maintenance, and plant engineering |
+| Business operations | Company setup, recruiting, dispatch, QuickBooks, AR/AP, tax filings, insurance, compliance, contracts, and dispute resolution |
+| Software and computing | Python and SQLite in current projects; MS-DOS background; hands-on exploration with Raspberry Pi and NVIDIA Jetson hardware |
+| AI systems architecture | Persistent State Memory, contextual retrieval, supervisory controls, prediction feedback, identity, and verifiable audit trails |
 
-![Engineering management](https://img.shields.io/badge/ENGINEERING_MANAGEMENT-5B4A8A?style=for-the-badge)
-![Safety director](https://img.shields.io/badge/SAFETY_DIRECTOR-10%2B_YEARS-5B4A8A?style=for-the-badge)
-![Project timelines](https://img.shields.io/badge/PROJECT_TIMELINES-overlapping_conditions-5B4A8A?style=for-the-badge)
+## How I learned
 
-## Where to find the work
+My formal technical training was in electronics and electrical engineering at the **Institute of Electronic Science, part of Texas A&M**. Beyond that training, I learned independently as the work required it—on equipment, in the field, and in businesses I owned or managed.
 
-- Package: [pypi.org/project/pdm-memory](https://pypi.org/project/pdm-memory/) · Source: [github.com/westfield-innovations/pdm-memory](https://github.com/westfield-innovations/pdm-memory)
-- AZUS: [azus.ai](https://azus.ai) · AZUS Field: [field.azus.ai](https://field.azus.ai)
-- X: [@AskAzus](https://x.com/AskAzus) · [@ExodusBecause](https://x.com/ExodusBecause)
+That included the financial and administrative work of running a company as well as the technical work. When the next responsibility required a skill I did not have, I learned it and put it to work.
 
-![Carl's GitHub stats](https://github-readme-stats.vercel.app/api?username=CarlHildebrandt&show_icons=true&theme=dark&hide_border=true)
+## Find the work
 
-*Field operations, PLC change control, persistent AI memory, identity management, verifiable audit trails.*
+- **AZUS:** [azus.ai](https://azus.ai)
+- **AZUS Field:** [field.azus.ai](https://field.azus.ai)
+- **PDM package:** [pypi.org/project/pdm-memory](https://pypi.org/project/pdm-memory/)
+- **PDM source:** [github.com/westfield-innovations/pdm-memory](https://github.com/westfield-innovations/pdm-memory)
+- **X:** [@AskAzus](https://x.com/AskAzus) · [@ExodusBecause](https://x.com/ExodusBecause)
+
+*Industrial controls · Persistent AI memory · Field operations · Boundary Lock · Verifiable records*
